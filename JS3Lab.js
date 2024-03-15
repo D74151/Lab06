@@ -307,9 +307,9 @@ Question 9: whichArrayIsLonger  \n`);
 
 function whichArrayIsLonger(array1,array2) {
       if (array1.length>array2.length) {
-       console.log(array1);
+       return array1;
       } else if (array1.length<array2.length) {
-       console.log(array2);
+       return array2;
       } else 
               return false
 }
